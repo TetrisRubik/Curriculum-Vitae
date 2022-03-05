@@ -6,7 +6,7 @@ Esta página web está diseñada para enlistar las variables deseadas como array
 La página web de ejemplo podrá ser accedida a través de GitHub Pages (actualmente en progreso).
 
 ## Quehaceres
-- [ ] Estructura básica en HTML
+- [x] Estructura básica en HTML
 - [ ] Añadir estilo CSS
 - [ ] Diseñar estructura más compleja
 - [ ] Implementar cabecera
