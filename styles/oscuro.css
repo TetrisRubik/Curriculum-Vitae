@@ -1,0 +1,25 @@
+html, body {
+	margin: 0;
+	background-color: #161616;
+	color: #CFCFCF;
+}
+
+header {
+	padding: 0.1px;
+	background-color: #0F0F0F;
+	text-align: center;
+	border-bottom: 1px solid #444444;
+}
+
+main {
+	margin: 40px;
+	padding: 20px;
+	display: flex;
+}
+
+footer {
+	position: relative;
+	bottom: 0;
+	padding: 20px 20px 20px 40px;
+	background-color: #0F0F0F;
+}

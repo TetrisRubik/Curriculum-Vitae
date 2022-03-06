@@ -3,8 +3,8 @@
 
 <head>
 	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<link rel="stylesheet" href="">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="styles/oscuro.css">
 	<link rel="shortcut icon" href="">
 	<title> Curriculum Vitae </title>
 </head>
@@ -12,8 +12,10 @@
 <body>
 	<!-- Presentación y acceso rápido a las diferentes partes de la página -->
 	<header>
-		<h1> Título Principal </h1>
-		<ul>
+		<div>
+			<h1> Título Principal </h1>
+		</div>
+		<ul class="accesos">
 			<li> Primera parte </li>
 			<li> Segunda parte </li>
 		</ul>
@@ -21,41 +23,71 @@
 	<!-- Tablón con los diferentes proyectos -->
 	<main>
 		<!-- Esto se creará a través de javascript seguramente -->
-		<div>
-			<h2> Proyecto 1 </h2>
-			<p> Mención sobre proyecto 1 </p>
-			<img src="" alt="">
+		<div class="proyectos">
+			<div>
+				<h2> Proyecto 1 </h2>
+				<p> Mención sobre proyecto 1 </p>
+				<img src="" alt="">
+			</div>
+			<div>
+				<h2> Proyecto 2 </h2>
+				<p> Mención sobre proyecto 2 </p>
+				<img src="" alt="">
+			</div>
+			<div>
+				<h2> Proyecto 1 </h2>
+				<p> Mención sobre proyecto 1 </p>
+				<img src="" alt="">
+			</div>
+			<div>
+				<h2> Proyecto 2 </h2>
+				<p> Mención sobre proyecto 2 </p>
+				<img src="" alt="">
+			</div>
+			<div>
+				<h2> Proyecto 1 </h2>
+				<p> Mención sobre proyecto 1 </p>
+				<img src="" alt="">
+			</div>
+			<div>
+				<h2> Proyecto 2 </h2>
+				<p> Mención sobre proyecto 2 </p>
+				<img src="" alt="">
+			</div>
 		</div>
-		<div>
-			<h2> Proyecto 2 </h2>
-			<p> Mención sobre proyecto 2 </p>
-			<img src="" alt="">
-		</div>
+		<!-- Algunas experiencias extras -->
+		<aside class="experiencias">
+			<div class="lenguajes">
+				<h2> Lenguajes de programación </h2>
+				<!-- Listado de lenguajes y su nivel de experiencia -->
+				<ul>
+					<li> Primer lenguaje </li>
+					<li> Segundo lenguaje </li>
+				</ul>
+			</div>
+			<div>
+				<h2> Otras experiencias </h2>
+				<ul>
+					<li> Estudió en... </li>
+					<li> Trabajó en... </li>
+				</ul>
+			</div>
+		</aside>
 	</main>
-	<!-- Algunas experiencias extras -->
-	<aside>
-		<div>
-			<h2> Lenguajes de programación </h2>
-			<!-- Listado de lenguajes y su nivel de experiencia -->
-			<ul>
-				<li> Primer lenguaje </li>
-				<li> Segundo lenguaje </li>
-			</ul>
-		</div>
-		<div>
-			<h2> Otras experiencias </h2>
-			<ul>
-				<li> Estudió en... </li>
-				<li> Trabajó en... </li>
-			</ul>
-		</div>
-	</aside>
 	<!-- Información de contacto o algo así (será modificado seguramente) -->
 	<footer>
 		<h3> Información de contacto </h3>
-		<a href=""> Email </a>
-		<a href=""> Redes Sociales </a>
-		<a href=""> Teléfono </a>
+		<ul>
+			<li>
+				<a href=""> Email </a>
+			</li>
+			<li>
+				<a href=""> Redes Sociales </a>
+			</li>
+			<li>
+				<a href=""> Teléfono </a>
+			</li>
+		</ul>
 	</footer>
 </body>
 
