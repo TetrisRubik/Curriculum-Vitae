@@ -8,7 +8,7 @@ La página web de ejemplo podrá ser accedida a través de GitHub Pages (actualm
 ## Quehaceres
 - [x] Estructura básica en HTML
 - [x] Añadir estilo CSS
-- [ ] Diseñar estructura más compleja
+- [x] Diseñar estructura más compleja
 - [ ] Implementar cabecera
 - [ ] Implementar proyectos
 - [ ] Implementar lenguajes

@@ -1,4 +1,5 @@
 html, body {
+	min-height: 100%;
 	margin: 0;
 	background-color: #161616;
 	color: #CFCFCF;
@@ -6,20 +7,37 @@ html, body {
 
 header {
 	padding: 0.1px;
-	background-color: #0F0F0F;
+	background-color: #0A0A0A;
 	text-align: center;
-	border-bottom: 1px solid #444444;
+	border-bottom: 3px solid #444444;
 }
 
 main {
-	margin: 40px;
-	padding: 20px;
 	display: flex;
 }
 
+.info {
+	width: 14%;
+	padding: 40px;
+	border-right: 2px solid #444444;
+	background-color: #0F0F0F;
+}
+
+.proy {
+	min-height: 90vh;
+	width: 60%;
+	padding: 60px;
+}
+
+.exp {
+	width: 26%;
+	border-left: 1px solid #444444;
+	margin: 20px;
+	padding: 30px;
+}
+
 footer {
-	position: relative;
-	bottom: 0;
+	border-top: 1px solid #444444;
 	padding: 20px 20px 20px 40px;
 	background-color: #0F0F0F;
 }
