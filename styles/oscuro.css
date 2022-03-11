@@ -9,11 +9,27 @@ header {
 	padding: 0.1px;
 	background-color: #0A0A0A;
 	text-align: center;
-	border-bottom: 3px solid #444444;
+	border-bottom: 2px solid #444444;
 }
 
 main {
 	display: flex;
+}
+
+ul.acc {
+	margin: 0px;
+	padding: 0px;
+	display: flex;
+}
+
+.acc > li {
+	flex: auto;
+	border: #141414 solid 1px;
+	border-right: #141414 solid 1px;
+	border-left: #141414 solid 1px;
+	padding: 14px;
+	list-style-type: none;
+	display: inline;
 }
 
 .info {
