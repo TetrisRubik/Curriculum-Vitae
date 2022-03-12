@@ -10,9 +10,11 @@ La página web de ejemplo podrá ser accedida a través de GitHub Pages (actualm
 - [x] Añadir estilo CSS
 - [x] Diseñar estructura más compleja
 - [x] Implementar cabecera
+- [ ] Implementar información
 - [ ] Implementar proyectos
 - [ ] Implementar lenguajes
-- [ ] Mejorar diseño CSS
+- [x] Mejorar diseño CSS
+- [ ] Añadir funcionalidad javascript
 - [ ] Añadir diferentes idiomas
 - [ ] Cambio entre modo claro y oscuro
 - [ ] Añadir funciones de accesibilidad

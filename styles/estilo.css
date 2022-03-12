@@ -1,0 +1,47 @@
+html, body {
+	min-height: 100%;
+	margin: 0;
+}
+
+header {
+	padding: 0.1px;
+	text-align: center;
+}
+
+main {
+	display: flex;
+}
+
+ul.acc {
+	margin: 0px;
+	padding: 0px;
+	display: flex;
+}
+
+.acc > li {
+	flex: auto;
+	padding: 14px;
+	list-style-type: none;
+	display: inline;
+}
+
+.info {
+	width: 14%;
+	padding: 40px;
+}
+
+.proy {
+	min-height: 90vh;
+	width: 60%;
+	padding: 60px;
+}
+
+.exp {
+	width: 26%;
+	margin: 20px;
+	padding: 30px;
+}
+
+footer {
+	padding: 20px 20px 20px 40px;
+}
