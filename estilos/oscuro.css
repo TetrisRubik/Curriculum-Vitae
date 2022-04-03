@@ -1,4 +1,4 @@
-html, body {
+body {
 	background-color: #161616;
 	color: #CFCFCF;
 }
@@ -8,15 +8,15 @@ header {
 	border-bottom: 2px solid #444444;
 }
 
-.acc > li {
+.acc>li {
 	border: #141414 solid 1px;
 	border-right: #141414 solid 1px;
 	border-left: #141414 solid 1px;
 }
 
 .info {
-	border-right: 2px solid #444444;
 	background-color: #0F0F0F;
+	border-right: 2px solid #444444;
 }
 
 .exp {
@@ -24,6 +24,6 @@ header {
 }
 
 footer {
-	border-top: 1px solid #444444;
 	background-color: #0F0F0F;
+	border-top: 1px solid #444444;
 }
