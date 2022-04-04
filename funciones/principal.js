@@ -5,7 +5,8 @@ import cambiar_tema from "./tema.js";
 //
 const lista_leng = document.getElementById("leng");
 const leng = ["JavaScript", "Python", "C", "C++", "Java", "Go"];
-añadir_lenguajes(lista_leng, leng);
+const nivel = [5, 4, 3, 2, 1];
+añadir_lenguajes(lista_leng, leng, nivel);
 
 //
 const nodo_botón_tema = document.getElementById("tema_botón");

@@ -1,5 +1,5 @@
 //* Función que añade el listado de lenguajes.
-export default function añadir_lenguajes(nodo, lenguajes) {
+export default function añadir_lenguajes(nodo, lenguajes, nivel) {
 	const fragmento = document.createDocumentFragment();
 
 	for (const lenguaje of lenguajes) {
