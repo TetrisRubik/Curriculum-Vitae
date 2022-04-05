@@ -27,3 +27,27 @@ footer {
 	background-color: #0F0F0F;
 	border-top: 1px solid #444444;
 }
+
+.azul {
+	color: rgb(64, 64, 255);
+}
+
+.verde {
+	color: rgb(70, 209, 70);
+}
+
+.amarillo {
+	color: rgb(255, 255, 0);
+}
+
+.naranja {
+	color: rgb(255, 166, 0);
+}
+
+.rojo {
+	color: rgb(255, 0, 0);
+}
+
+.negro {
+	color: rgb(86, 86, 86);
+}

@@ -1,29 +1,4 @@
 /*# FALTA REFACTORIZAR */
-/*# Poner colores en el estilo */
-.azul {
-	color: blue;
-}
-
-.verde {
-	color: green;
-}
-
-.amarillo {
-	color: yellow
-}
-
-.naranja {
-	color: orange;
-}
-
-.rojo {
-	color: red;
-}
-
-.negro {
-	color: black;
-}
-
 body {
 	min-height: 100%;
 	margin: 0;
