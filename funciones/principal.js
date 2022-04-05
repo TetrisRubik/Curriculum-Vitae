@@ -8,10 +8,8 @@ const jsonURL = "archivos/elementos.json";
 const datos = carga_json(jsonURL);
 
 // Coloca los lenguajes conocidos y su nivel.
-const lista_leng = document.getElementById("leng");
-const leng = ["JavaScript", "Python", "C", "C++", "Java", "Go"];
-const nivel = [5, 4, 3, 2, 1];
-añadir_lenguajes(lista_leng, leng, nivel);
+const nodo_leng = document.getElementById("leng");
+datos.then(datos => añadir_lenguajes(nodo_leng, datos.lenguajes));
 
 // Botón para cambiar tema claro/oscuro.
 const nodo_botón_tema = document.getElementById("tema_botón");

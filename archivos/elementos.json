@@ -2,27 +2,27 @@
 	"lenguajes": [
 		{
 			"nombre": "JavaScript",
-			"rango": 5
+			"nivel": 5
 		},
 		{
 			"nombre": "Python",
-			"rango": 4
-		},
-		{
-			"nombre": "C",
-			"rango": 3
+			"nivel": 4
 		},
 		{
 			"nombre": "C++",
-			"rango": 2
+			"nivel": 3
 		},
 		{
 			"nombre": "Java",
-			"rango": 1
+			"nivel": 2
+		},
+		{
+			"nombre": "C",
+			"nivel": 1
 		},
 		{
 			"nombre": "Go",
-			"rango": 0
+			"nivel": 0
 		}
 	],
 	"": ""
