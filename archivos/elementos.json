@@ -1,0 +1,29 @@
+{
+	"lenguajes": [
+		{
+			"nombre": "JavaScript",
+			"nivel": 5
+		},
+		{
+			"nombre": "Python",
+			"nivel": 4
+		},
+		{
+			"nombre": "C++",
+			"nivel": 3
+		},
+		{
+			"nombre": "Java",
+			"nivel": 2
+		},
+		{
+			"nombre": "C",
+			"nivel": 1
+		},
+		{
+			"nombre": "Go",
+			"nivel": 0
+		}
+	],
+	"": ""
+}

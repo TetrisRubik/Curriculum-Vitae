@@ -1,0 +1,53 @@
+body {
+	background-color: #EEEEEE;
+	color: #111111;
+}
+
+header {
+	background-color: #C2C2C2;
+	border-bottom: 2px solid #444444;
+}
+
+.acc>li {
+	border: #666666 solid 1px;
+	border-right: #666666 solid 1px;
+	border-left: #666666 solid 1px;
+}
+
+.info {
+	background-color: #AAAAAA;
+	border-right: 2px solid #444444;
+}
+
+.exp {
+	border-left: 1px solid #444444;
+}
+
+footer {
+	background-color: #888888;
+	border-top: 1px solid #444444;
+}
+
+.azul {
+	color: rgb(64, 64, 255);
+}
+
+.verde {
+	color: rgb(70, 209, 70);
+}
+
+.amarillo {
+	color: rgb(210, 210, 0);
+}
+
+.naranja {
+	color: rgb(255, 166, 0);
+}
+
+.rojo {
+	color: rgb(255, 0, 0);
+}
+
+.negro {
+	color: rgb(0, 0, 0);
+}

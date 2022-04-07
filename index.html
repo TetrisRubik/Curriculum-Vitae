@@ -4,11 +4,12 @@
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<link rel="stylesheet" href="styles/estilo.css">
-	<link rel="stylesheet" href="styles/oscuro.css">
-	<link rel="shortcut icon" href="">
+	<link rel="stylesheet" href="estilos/estilo.css">
+	<link rel="stylesheet" href="estilos/oscuro.css" id="tema_css">
+	<link rel="shortcut icon" href="archivos/logo.png">
 	<title> Curriculum Vitae </title>
 </head>
+
 
 <body>
 	<!-- Presentación y acceso rápido a las diferentes partes de la página -->
@@ -20,6 +21,7 @@
 			<li> Primera parte </li>
 			<li> Segunda parte </li>
 		</ul>
+		<button id="tema_botón"> Tema </button>
 	</header>
 	<!-- Tablón con los diferentes proyectos -->
 	<main>
@@ -65,10 +67,7 @@
 			<div class="leng">
 				<h2> Lenguajes de programación </h2>
 				<!-- Listado de lenguajes y su nivel de experiencia -->
-				<ul>
-					<li> Primer lenguaje </li>
-					<li> Segundo lenguaje </li>
-				</ul>
+				<ul id="leng"></ul>
 			</div>
 			<div>
 				<h2> Otras experiencias </h2>
@@ -94,6 +93,8 @@
 			</li>
 		</ul>
 	</footer>
+	<!-- Elemento JavaScript que será factorizado más adelante -->
+	<script type="module" src="funciones/principal.js"></script>
 </body>
 
 </html>
