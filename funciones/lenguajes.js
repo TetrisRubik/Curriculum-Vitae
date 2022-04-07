@@ -2,35 +2,32 @@
 export default function añadir_lenguajes(nodo, datos) {
 	const fragmento = document.createDocumentFragment();
 
-	//? ▩▨▧▦▥▤▣▢ Posibles cuadrados para cada color.
+	// Posibles marcadores para cada color: ▩▨▧▦▥▤▣▢.
+	const marcador = "▣"
+	const atributo = "class";
+	const color = {
+		5: "azul",
+		4: "verde",
+		3: "amarillo",
+		2: "naranja",
+		1: "rojo",
+		0: "negro"
+	}
+
 	for (const dato of datos) {
 		const elemento = document.createElement("LI");
+
+		// Nivel de experiencia en el lenguaje.
 		const nivel = document.createElement("SPAN");
-		nivel.textContent = "▣";
-		switch (dato.nivel) {
-			case 5:
-				nivel.setAttribute("class", "azul");
-				break;
-			case 4:
-				nivel.setAttribute("class", "verde");
-				break;
-			case 3:
-				nivel.setAttribute("class", "amarillo");
-				break;
-			case 2:
-				nivel.setAttribute("class", "naranja");
-				break;
-			case 1:
-				nivel.setAttribute("class", "rojo");
-				break;
-			case 0:
-				nivel.setAttribute("class", "negro");
-				break;
-		}
+		nivel.textContent = marcador;
+		nivel.setAttribute(atributo, color[dato.nivel])
 		elemento.appendChild(nivel);
+
+		// Nombre del lenguaje.
 		const lenguaje = document.createElement("SPAN");
 		lenguaje.textContent = " - " + dato.nombre;
 		elemento.appendChild(lenguaje);
+
 		fragmento.appendChild(elemento);
 	}
 
