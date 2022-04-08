@@ -14,6 +14,9 @@ datos.then(datos => {if (datos.lenguajes[0]) {
 }});
 
 // Botón para cambiar tema claro/oscuro.
-const nodo_botón_tema = document.getElementById("tema_botón");
-const nodo_estilo = document.getElementById("tema_css");
-cambiar_tema(nodo_estilo, nodo_botón_tema);
+const botón_tema = document.getElementById("botón_tema");
+const nodo_estilo = document.getElementById("tema");
+cambiar_tema(nodo_estilo, botón_tema);
+
+// Botón para cambiar el idioma.
+const botón_idioma = document.getElementById("botón_idioma");

@@ -12,7 +12,13 @@ header {
 	border-bottom: 2px solid;
 }
 
-#tema_botón {
+#botón_tema {
+	position: absolute;
+	top: 40px;
+	right: 10px;
+}
+
+#botón_idioma {
 	position: absolute;
 	top: 10px;
 	right: 10px;
