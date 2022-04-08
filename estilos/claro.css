@@ -1,31 +1,39 @@
+/** Tema del modo claro */
+:root {
+	--fondo1: rgb(238, 238, 238);
+	--fondo2: rgb(194, 194, 194);
+	--fondo3: rgb(170, 170, 170);
+	--borde1: rgb(68, 68, 68);
+	--borde2: rgb(102, 102, 102);
+	--fuente: rgb(17, 17, 17);
+}
+
 body {
-	background-color: #EEEEEE;
-	color: #111111;
+	background-color: var(--fondo1);
+	color: var(--fuente);
 }
 
 header {
-	background-color: #C2C2C2;
-	border-bottom: 2px solid #444444;
+	background-color: var(--fondo2);
+	border-bottom-color: var(--borde1);
 }
 
 .acc>li {
-	border: #666666 solid 1px;
-	border-right: #666666 solid 1px;
-	border-left: #666666 solid 1px;
+	border-color: var(--borde2);
 }
 
 .info {
-	background-color: #AAAAAA;
-	border-right: 2px solid #444444;
+	background-color: var(--fondo3);
+	border-right-color: var(--borde1);
 }
 
 .exp {
-	border-left: 1px solid #444444;
+	border-left-color: var(--borde1);
 }
 
 footer {
-	background-color: #888888;
-	border-top: 1px solid #444444;
+	background-color: var(--fondo3);
+	border-top-color: var(--borde1);
 }
 
 .azul {

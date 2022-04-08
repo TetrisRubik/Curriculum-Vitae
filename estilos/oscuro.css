@@ -1,31 +1,39 @@
+/** Tema del modo oscuro */
+:root {
+	--fondo1: rgb(20, 20, 20);
+	--fondo2: rgb(10, 10, 10);
+	--fondo3: rgb(15, 15, 15);
+	--borde1: rgb(68, 68, 68);
+	--borde2: rgb(20, 20, 20);
+	--fuente: rgb(207, 207, 207);
+}
+
 body {
-	background-color: #161616;
-	color: #CFCFCF;
+	background-color: var(--fondo1);
+	color: var(--fuente);
 }
 
 header {
-	background-color: #0A0A0A;
-	border-bottom: 2px solid #444444;
+	background-color: var(--fondo2);
+	border-bottom-color: var(--borde1);
 }
 
 .acc>li {
-	border: #141414 solid 1px;
-	border-right: #141414 solid 1px;
-	border-left: #141414 solid 1px;
+	border-color: var(--borde2);
 }
 
 .info {
-	background-color: #0F0F0F;
-	border-right: 2px solid #444444;
+	background-color: var(--fondo3);
+	border-right-color: var(--borde1);
 }
 
 .exp {
-	border-left: 1px solid #444444;
+	border-left-color: var(--borde1);
 }
 
 footer {
-	background-color: #0F0F0F;
-	border-top: 1px solid #444444;
+	background-color: var(--fondo3);
+	border-top-color: var(--borde1);
 }
 
 .azul {

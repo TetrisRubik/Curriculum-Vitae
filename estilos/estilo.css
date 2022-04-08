@@ -1,3 +1,4 @@
+/** Estilo web principal */
 /*# FALTA REFACTORIZAR */
 body {
 	min-height: 100%;
@@ -7,6 +8,7 @@ body {
 header {
 	padding: 0.1px;
 	text-align: center;
+	border-bottom: 2px solid;
 }
 
 #tema_botón {
@@ -30,11 +32,13 @@ ul.acc {
 	padding: 14px;
 	list-style-type: none;
 	display: inline;
+	border: 1px solid;
 }
 
 .info {
 	width: 14%;
 	padding: 40px;
+	border-right: 2px solid;
 }
 
 .proy {
@@ -47,6 +51,7 @@ ul.acc {
 	width: 26%;
 	margin: 20px;
 	padding: 30px;
+	border-left: 1px solid;
 }
 
 .exp>.leng>ul {
@@ -55,6 +60,7 @@ ul.acc {
 
 footer {
 	padding: 20px 20px 20px 40px;
+	border-top: 1px solid;
 }
 
 footer>ul {
