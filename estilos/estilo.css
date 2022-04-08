@@ -3,6 +3,7 @@
 body {
 	min-height: 100%;
 	margin: 0;
+	font-family: sans-serif;
 }
 
 header {
@@ -21,13 +22,13 @@ main {
 	display: flex;
 }
 
-ul.acc {
+ul.accesos {
 	margin: 0px;
 	padding: 0px;
 	display: flex;
 }
 
-.acc>li {
+.accesos>li {
 	flex: auto;
 	padding: 14px;
 	list-style-type: none;
@@ -35,26 +36,26 @@ ul.acc {
 	border: 1px solid;
 }
 
-.info {
+.información {
 	width: 14%;
 	padding: 40px;
 	border-right: 2px solid;
 }
 
-.proy {
+.proyectos {
 	min-height: 90vh;
 	width: 60%;
 	padding: 60px;
 }
 
-.exp {
+.experiencias {
 	width: 26%;
 	margin: 20px;
 	padding: 30px;
 	border-left: 1px solid;
 }
 
-.exp>.leng>ul {
+.experiencias>div>ul {
 	list-style-type: none;
 }
 

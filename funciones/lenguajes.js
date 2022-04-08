@@ -2,9 +2,16 @@
 export default function añadir_lenguajes(nodo, datos) {
 	const fragmento = document.createDocumentFragment();
 
-	// Posibles marcadores para cada color: ▩▨▧▦▥▤▣▢.
-	const marcador = "▣"
+	// Encabezado de la lista.
+	const nodo_encabezado = document.createElement("H2");
+	const encabezado = "Lenguajes de programación";
+	nodo_encabezado.textContent = encabezado;
+	fragmento.appendChild(nodo_encabezado);
+
+	// Variables de la lista.
+	const nodo_lista = document.createElement("UL");
 	const atributo = "class";
+	const marcador = "▣" // Posibles marcadores para cada color: ▩▨▧▦▥▤▣▢.
 	const color = {
 		5: "azul",
 		4: "verde",
@@ -14,6 +21,9 @@ export default function añadir_lenguajes(nodo, datos) {
 		0: "negro"
 	}
 
+	const fragmento_lista = document.createDocumentFragment();
+
+	// Transforma cada dato a elemento de lista.
 	for (const dato of datos) {
 		const elemento = document.createElement("LI");
 
@@ -28,8 +38,11 @@ export default function añadir_lenguajes(nodo, datos) {
 		lenguaje.textContent = " - " + dato.nombre;
 		elemento.appendChild(lenguaje);
 
-		fragmento.appendChild(elemento);
+		fragmento_lista.appendChild(elemento);
 	}
+
+	nodo_lista.appendChild(fragmento_lista);
+	fragmento.appendChild(nodo_lista);
 
 	nodo.appendChild(fragmento);
 }

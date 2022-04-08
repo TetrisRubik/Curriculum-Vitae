@@ -18,16 +18,16 @@ header {
 	border-bottom-color: var(--borde1);
 }
 
-.acc>li {
+.accesos>li {
 	border-color: var(--borde2);
 }
 
-.info {
+.información {
 	background-color: var(--fondo3);
 	border-right-color: var(--borde1);
 }
 
-.exp {
+.experiencias {
 	border-left-color: var(--borde1);
 }
 

@@ -16,7 +16,7 @@
 		<div>
 			<h1> Título Principal </h1>
 		</div>
-		<ul class="acc">
+		<ul class="accesos">
 			<li> Primera parte </li>
 			<li> Segunda parte </li>
 		</ul>
@@ -25,10 +25,10 @@
 	<!-- Tablón con los diferentes proyectos -->
 	<main>
 		<!-- Esto se creará a través de javascript seguramente -->
-		<aside class="info">
+		<aside class="información">
 			<img src="" alt="Foto Usuario">
 		</aside>
-		<div class="proy">
+		<div class="proyectos">
 			<div>
 				<h2> Proyecto 1 </h2>
 				<p> Mención sobre proyecto 1 </p>
@@ -60,13 +60,11 @@
 				<img src="" alt="">
 			</div>
 		</div>
-		<!-- Algunas experiencias extras -->
-		<aside class="exp">
-			<div class="leng">
-				<h2> Lenguajes de programación </h2>
-				<!-- Listado de lenguajes y su nivel de experiencia -->
-				<ul id="leng"></ul>
-			</div>
+		<!-- Algunas experiencias importantes -->
+		<aside class="experiencias">
+			<!-- Listado de lenguajes de programación y su nivel de experiencia (solo aparece si hay) -->
+			<div id="lenguajes"></div>
+			<!-- Más experiencias -->
 			<div>
 				<h2> Otras experiencias </h2>
 				<ul>
@@ -91,7 +89,7 @@
 			</li>
 		</ul>
 	</footer>
-	<!-- Elemento JavaScript que será factorizado más adelante -->
+	<!-- Archivo JavaScript que maneja todo -->
 	<script type="module" src="funciones/principal.js"></script>
 </body>
 
