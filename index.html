@@ -6,7 +6,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="stylesheet" href="estilos/estilo.css">
 	<link rel="stylesheet" href="estilos/oscuro.css" id="tema">
-	<link rel="shortcut icon" href="archivos/logo.png">
+	<link rel="shortcut icon" href="archivos/logo.svg">
 	<title> Curriculum Vitae </title>
 </head>
 
@@ -14,14 +14,17 @@
 	<!-- Presentación y acceso rápido a las diferentes partes de la página -->
 	<header>
 		<div>
-			<h1> Título Principal </h1>
+			<h1> Curriculum Vitae </h1>
 		</div>
 		<ul class="accesos">
 			<li> Primera parte </li>
 			<li> Segunda parte </li>
 		</ul>
-		<button id="botón_tema"> Tema </button>
-		<button id="botón_idioma"> Idioma </button>
+		<!-- Botones de configuración -->
+		<div id="opciones">
+			<button id="botón_idioma"> Idioma </button>
+			<input id="botón_tema" type="image" src="archivos/modo_claro.svg" alt="Modo Claro">
+		</div>
 	</header>
 	<!-- Tablón con los diferentes proyectos -->
 	<main>
