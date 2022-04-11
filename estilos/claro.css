@@ -6,63 +6,10 @@
 	--borde1: rgb(68, 68, 68);
 	--borde2: rgb(102, 102, 102);
 	--fuente: rgb(17, 17, 17);
-}
-
-/*! PASAR LAS ETIQUETAS REPETIDASA ESTILO.CSS */
-
-body {
-	background-color: var(--fondo1);
-	color: var(--fuente);
-}
-
-#botón_idioma {
-	background-color: var(--fondo2);
-	color: var(--fuente);
-}
-
-header {
-	background-color: var(--fondo2);
-	border-bottom-color: var(--borde1);
-}
-
-.accesos>li {
-	border-color: var(--borde2);
-}
-
-.información {
-	background-color: var(--fondo3);
-	border-right-color: var(--borde1);
-}
-
-.experiencias {
-	border-left-color: var(--borde1);
-}
-
-footer {
-	background-color: var(--fondo3);
-	border-top-color: var(--borde1);
-}
-
-.azul {
-	color: rgb(64, 64, 255);
-}
-
-.verde {
-	color: rgb(70, 209, 70);
-}
-
-.amarillo {
-	color: rgb(210, 210, 0);
-}
-
-.naranja {
-	color: rgb(255, 166, 0);
-}
-
-.rojo {
-	color: rgb(255, 0, 0);
-}
-
-.negro {
-	color: rgb(0, 0, 0);
+	--azul: rgb(64, 64, 255);
+	--verde: rgb(70, 209, 70);
+	--amarillo: rgb(210, 210, 0);
+	--naranja: rgb(255, 166, 0);
+	--rojo: rgb(255, 0, 0);
+	--negro: rgb(0, 0, 0);
 }
