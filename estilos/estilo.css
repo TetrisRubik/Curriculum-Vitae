@@ -7,16 +7,35 @@ body {
 }
 
 #opciones {
+	display: flex;
 	position: absolute;
-	top: 10px;
-	right: 10px;
+	top: 0;
+	right: 0;
 }
 
 #botón_tema {
 	width: 28px;
+	margin: 10px 10px 10px 5px;
+	padding: 0;
+}
+
+#botón_idioma {
+	margin: 10px 5px 10px 10px;
+	padding: 0px;
+	border: 0;
+	background: none;
+	overflow: scroll;
+	font-size: 28px;
+	width: 32px;
+	height: 32px;
 }
 
 #botón_tema:hover {
+	cursor: pointer;
+	opacity: 80%;
+}
+
+#botón_idioma:hover {
 	cursor: pointer;
 	opacity: 80%;
 }

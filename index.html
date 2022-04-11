@@ -7,10 +7,16 @@
 	<link rel="stylesheet" href="estilos/estilo.css">
 	<link rel="stylesheet" href="estilos/oscuro.css" id="tema">
 	<link rel="shortcut icon" href="archivos/logo.svg">
+	<script type="module" src="funciones/principal.js"></script>
 	<title> Curriculum Vitae </title>
 </head>
 
 <body>
+	<!-- Botones de configuración -->
+	<aside id="opciones">
+		<input id="botón_idioma" type="button" value="🇪🇸">
+		<input id="botón_tema" type="image" src="archivos/modo_claro.svg" alt="Modo Claro">
+	</aside>
 	<!-- Presentación y acceso rápido a las diferentes partes de la página -->
 	<header>
 		<div>
@@ -20,11 +26,6 @@
 			<li> Primera parte </li>
 			<li> Segunda parte </li>
 		</ul>
-		<!-- Botones de configuración -->
-		<div id="opciones">
-			<button id="botón_idioma"> Idioma </button>
-			<input id="botón_tema" type="image" src="archivos/modo_claro.svg" alt="Modo Claro">
-		</div>
 	</header>
 	<!-- Tablón con los diferentes proyectos -->
 	<main>
@@ -93,8 +94,6 @@
 			</li>
 		</ul>
 	</footer>
-	<!-- Archivo JavaScript que maneja todo -->
-	<script type="module" src="funciones/principal.js"></script>
 </body>
 
 </html>
