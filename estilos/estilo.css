@@ -1,5 +1,4 @@
 /** Estilo web principal */
-/*# FALTA REFACTORIZAR */
 body {
 	min-height: 100%;
 	margin: 0;
@@ -13,29 +12,31 @@ body {
 	right: 0;
 }
 
+#botón_idioma {
+	margin: 10px 5px 10px 10px;
+	padding: 0px;
+	border: 0;
+	background: transparent;
+	overflow: scroll;
+	font-size: 28px;
+	width: 32px;
+	height: 32px;
+	-moz-appearance: none;
+	-webkit-appearance: none;
+}
+
+#botón_idioma:hover {
+	cursor: pointer;
+	opacity: 80%;
+}
+
 #botón_tema {
 	width: 28px;
 	margin: 10px 10px 10px 5px;
 	padding: 0;
 }
 
-#botón_idioma {
-	margin: 10px 5px 10px 10px;
-	padding: 0px;
-	border: 0;
-	background: none;
-	overflow: scroll;
-	font-size: 28px;
-	width: 32px;
-	height: 32px;
-}
-
 #botón_tema:hover {
-	cursor: pointer;
-	opacity: 80%;
-}
-
-#botón_idioma:hover {
 	cursor: pointer;
 	opacity: 80%;
 }

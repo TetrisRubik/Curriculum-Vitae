@@ -1,4 +1,4 @@
-/** Tema del modo oscuro */
+/** Estilo del modo oscuro */
 :root {
 	--fondo1: rgb(20, 20, 20);
 	--fondo2: rgb(10, 10, 10);
@@ -8,8 +8,15 @@
 	--fuente: rgb(207, 207, 207);
 }
 
+/*! PASAR LAS ETIQUETAS REPETIDASA ESTILO.CSS */
+
 body {
 	background-color: var(--fondo1);
+	color: var(--fuente);
+}
+
+#botón_idioma {
+	background-color: var(--fondo2);
 	color: var(--fuente);
 }
 
