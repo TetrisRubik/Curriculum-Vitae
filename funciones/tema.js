@@ -4,18 +4,22 @@ export default function cambiar_tema(nodo, accionador) {
 	const tema_claro = "estilos/claro.css";
 	const icono_oscuro = "archivos/modo_oscuro.svg";
 	const icono_claro = "archivos/modo_claro.svg";
-	const alternativa_oscuro = "Modo Oscuro";
-	const alternativa_claro = "Modo Claro";
+	const alternativa_oscuro = "Botón para cambiar a modo oscuro";
+	const alternativa_claro = "Botón para cambiar a modo claro";
+	const título_oscuro = "Modo oscuro";
+	const título_claro = "Modo claro";
 
 	accionador.addEventListener("click", () => {
 		if (nodo.getAttribute("href") === tema_oscuro) {
 			nodo.setAttribute("href", tema_claro);
 			accionador.setAttribute("src", icono_oscuro);
 			accionador.setAttribute("alt", alternativa_oscuro);
+			accionador.setAttribute("title", título_oscuro);
 		} else {
 			nodo.setAttribute("href", tema_oscuro);
 			accionador.setAttribute("src", icono_claro);
 			accionador.setAttribute("alt", alternativa_claro);
+			accionador.setAttribute("title", título_claro);	
 		}
 	});
 }
