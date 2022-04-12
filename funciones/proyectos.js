@@ -8,19 +8,15 @@ export default function añadir_proyectos(nodo, proyectos) {
 
 		// Cabecera del proyecto.
 		const nodo_encabezado = document.createElement("H2");
-		nodo_encabezado.textContent = proyecto.título;
+		nodo_encabezado.textContent = proyecto.encabezado;
 		elemento.appendChild(nodo_encabezado);
 
-		// Diferentes párrafos del proyecto.
-		const nodo_párrafo1 = document.createElement("P");
-		nodo_párrafo1.textContent = proyecto.párrafo1;
-		elemento.appendChild(nodo_párrafo1);
-		const nodo_párrafo2 = document.createElement("P");
-		nodo_párrafo2.textContent = proyecto.párrafo2;
-		elemento.appendChild(nodo_párrafo2);
-		const nodo_párrafo3 = document.createElement("P");
-		nodo_párrafo3.textContent = proyecto.párrafo3;
-		elemento.appendChild(nodo_párrafo3);
+		// Listado de párrafos del proyecto.
+		for (const párrafo of proyecto.párrafos) {
+			const nodo_párrafo = document.createElement("P");
+			nodo_párrafo.textContent = párrafo;
+			elemento.appendChild(nodo_párrafo);
+		}
 
 		// Imagen del proyecto.
 		const nodo_imagen = document.createElement("IMG");
