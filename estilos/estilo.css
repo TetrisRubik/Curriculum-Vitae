@@ -7,6 +7,15 @@ body {
 	color: var(--fuente);
 }
 
+#información>div {
+	margin: 20px;
+}
+
+#información>div>span {
+	display: block;
+	padding: 10px;
+}
+
 #opciones {
 	display: flex;
 	position: absolute;

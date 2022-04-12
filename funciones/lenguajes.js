@@ -21,8 +21,6 @@ export default function añadir_lenguajes(nodo, lenguajes) {
 		0: "negro"
 	}
 
-	const fragmento_lista = document.createDocumentFragment();
-
 	// Transforma cada dato a elemento de lista.
 	for (const lenguaje of lenguajes) {
 		const elemento = document.createElement("LI");
@@ -38,10 +36,9 @@ export default function añadir_lenguajes(nodo, lenguajes) {
 		nombre.textContent = " - " + lenguaje.nombre;
 		elemento.appendChild(nombre);
 
-		fragmento_lista.appendChild(elemento);
+		nodo_lista.appendChild(elemento);
 	}
 
-	nodo_lista.appendChild(fragmento_lista);
 	fragmento.appendChild(nodo_lista);
 
 	nodo.appendChild(fragmento);
