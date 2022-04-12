@@ -1,4 +1,7 @@
 {
+	"_documentación": "https://github.com/TetrisRubik/Curriculum-Vitae/tree/Principal/documentación",
+	"modo_oscuro": true,
+	"idioma": "español",
 	"lenguajes": [
 		{
 			"nombre": "JavaScript",
@@ -24,6 +27,5 @@
 			"nombre": "Go",
 			"nivel": 0
 		}
-	],
-	"": ""
+	]
 }

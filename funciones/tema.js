@@ -7,15 +7,13 @@ export default function cambiar_tema(nodo, accionador) {
 	const alternativa_oscuro = "Botón para cambiar a modo oscuro";
 	const alternativa_claro = "Botón para cambiar a modo claro";
 
-	accionador.addEventListener("click", () => {
-		if (nodo.getAttribute("href") === tema_oscuro) {
-			nodo.setAttribute("href", tema_claro);
-			accionador.setAttribute("src", icono_oscuro);
-			accionador.setAttribute("alt", alternativa_oscuro);
-		} else {
-			nodo.setAttribute("href", tema_oscuro);
-			accionador.setAttribute("src", icono_claro);
-			accionador.setAttribute("alt", alternativa_claro);
-		}
-	});
+	if (nodo.getAttribute("href") === tema_oscuro) {
+		nodo.setAttribute("href", tema_claro);
+		accionador.setAttribute("src", icono_oscuro);
+		accionador.setAttribute("alt", alternativa_oscuro);
+	} else {
+		nodo.setAttribute("href", tema_oscuro);
+		accionador.setAttribute("src", icono_claro);
+		accionador.setAttribute("alt", alternativa_claro);
+	}
 }

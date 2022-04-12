@@ -19,11 +19,17 @@ body {
 	padding: 0px;
 	border: 0;
 	background: transparent;
+	background-color: var(--fondo2);
+	color: var(--fuente);
+	border-radius: 20%;
 	overflow: scroll;
 	font-size: 28px;
 	width: 32px;
 	height: 32px;
 	appearance: none;
+}
+
+#botón_idioma>option {
 	background-color: var(--fondo2);
 	color: var(--fuente);
 }
