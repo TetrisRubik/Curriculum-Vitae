@@ -77,7 +77,7 @@ ul.accesos {
 	border-color: var(--borde2);
 }
 
-.información {
+#información {
 	width: 14%;
 	padding: 40px;
 	border-right: 2px solid;
@@ -85,7 +85,7 @@ ul.accesos {
 	border-right-color: var(--borde1);
 }
 
-.proyectos {
+#proyectos {
 	min-height: 90vh;
 	width: 60%;
 	padding: 60px;

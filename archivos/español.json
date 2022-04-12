@@ -1,0 +1,45 @@
+{
+	"información": {
+		"nombre": "Pablo",
+		"apellido1": "Fernández",
+		"apellido2": "Serrano",
+		"nacimiento": "16/06/2002",
+		"título": "Grado en Ingeniería de Software",
+		"facultad": "Universidad de Málaga"
+	},
+	"idiomas": [
+		{
+			"idioma": "Español",
+			"país": "España",
+			"nivel": "C2"
+		},
+		{
+			"idioma": "Inglés",
+			"país": "Reino Unido",
+			"nivel": "B2"
+		},
+		{
+			"idioma": "Francés",
+			"país": "Francia",
+			"nivel": "B1"
+		}
+	],
+	"proyectos": [
+		{
+			"título": "Título del proyecto 1",
+			"enlace_título": "https://github.com/TetrisRubik/Curriculum-Vitae",
+			"párrafo1": "Esto es el párrafo 1 que estará debajo del título",
+			"párrafo2": "Esto es el párrafo 2 que estará debajo del párrafo 1",
+			"párrafo3": "Esto es el párrafo 3 que estará debajo del párrafo 2",
+			"imagen": "archivos/modo_claro.svg"
+		},
+		{
+			"título": "Título del proyecto 2",
+			"enlace_título": "https://github.com/TetrisRubik/Curriculum-Vitae",
+			"párrafo1": "Esto es el párrafo 1 que estará debajo del título",
+			"párrafo2": "Esto es el párrafo 2 que estará debajo del párrafo 1",
+			"párrafo3": "Esto es el párrafo 3 que estará debajo del párrafo 2",
+			"imagen": "archivos/modo_oscuro.svg"
+		}
+	]
+}

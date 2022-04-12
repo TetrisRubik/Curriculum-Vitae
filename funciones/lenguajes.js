@@ -1,5 +1,5 @@
 //* Función que añade el listado de lenguajes.
-export default function añadir_lenguajes(nodo, datos) {
+export default function añadir_lenguajes(nodo, lenguajes) {
 	const fragmento = document.createDocumentFragment();
 
 	// Encabezado de la lista.
@@ -24,19 +24,19 @@ export default function añadir_lenguajes(nodo, datos) {
 	const fragmento_lista = document.createDocumentFragment();
 
 	// Transforma cada dato a elemento de lista.
-	for (const dato of datos) {
+	for (const lenguaje of lenguajes) {
 		const elemento = document.createElement("LI");
 
 		// Nivel de experiencia en el lenguaje.
 		const nivel = document.createElement("SPAN");
 		nivel.textContent = marcador;
-		nivel.setAttribute(atributo, color[dato.nivel])
+		nivel.setAttribute(atributo, color[lenguaje.nivel])
 		elemento.appendChild(nivel);
 
 		// Nombre del lenguaje.
-		const lenguaje = document.createElement("SPAN");
-		lenguaje.textContent = " - " + dato.nombre;
-		elemento.appendChild(lenguaje);
+		const nombre = document.createElement("SPAN");
+		nombre.textContent = " - " + lenguaje.nombre;
+		elemento.appendChild(nombre);
 
 		fragmento_lista.appendChild(elemento);
 	}
