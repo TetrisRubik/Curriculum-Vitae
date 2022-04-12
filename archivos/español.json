@@ -8,40 +8,40 @@
 	"idiomas": [
 		{
 			"idioma": "Español",
-			"país": "España",
+			"región": "España",
 			"nivel": "C2"
 		},
 		{
 			"idioma": "Inglés",
-			"país": "Reino Unido",
+			"región": "Reino Unido",
 			"nivel": "B2"
 		},
 		{
 			"idioma": "Francés",
-			"país": "Francia",
+			"región": "Francia",
 			"nivel": "B1"
 		}
 	],
 	"proyectos": [
 		{
-			"encabezado": "Título del proyecto 1",
-			"enlace": "https://github.com/TetrisRubik/Curriculum-Vitae",
+			"encabezado": "Rompe-Ladrillos",
+			"enlace": "https://github.com/TetrisRubik/Rompe-Ladrillos",
 			"párrafos": [
-				"Esto es el párrafo 1 que estará debajo del título",
-				"Esto es el párrafo 2 que estará debajo del párrafo 1",
-				"Esto es el párrafo 3 que estará debajo del párrafo 2"
+				"Esto es solo el clásico juego de romper los ladrillos rebotando una pelota, pero hecho en javascript usando el canvas.",
+				"A priori, el juego será muy simple, teniendo únicamente los elementos básicos que pueda tener cualquier versión de este. Aunque puede que en algún futuro cercano se le añada nuevas características.",
+				"El proyecto fue implementado sirviéndose del videotutorial de Crhis Perko."
 			],
-			"imagen": "archivos/modo_claro.svg"
+			"imagen": "rompe-ladrillos.png"
 		},
 		{
-			"encabezado": "Título del proyecto 2",
-			"enlace": "https://github.com/TetrisRubik/Curriculum-Vitae",
+			"encabezado": "Juego de la Sepiente",
+			"enlace": "https://github.com/TetrisRubik/Serpiente",
 			"párrafos": [
-				"Esto es el párrafo 1 que estará debajo del título",
-				"Esto es el párrafo 2 que estará debajo del párrafo 1",
-				"Esto es el párrafo 3 que estará debajo del párrafo 2"
+				"Esto es solo el clásico juego de la serpiente, pero hecho con pygame (una librería de Python). ",
+				"A priori, el juego será muy simple, teniendo únicamente los elementos básicos que pueda tener cualquier versión de este. Aunque puede que en algún futuro cercano se le añada nuevas características.",
+				"El proyecto fue implementado sirviéndose del videotutorial de Tech With Tim."
 			],
-			"imagen": "archivos/modo_oscuro.svg"
+			"imagen": "serpiente.png"
 		}
 	]
 }

@@ -6,6 +6,28 @@ body {
 	background-color: var(--fondo1);
 	color: var(--fuente);
 }
+#proyectos>div {
+	margin-top: 60px;
+}
+
+#proyectos>div>img {
+	max-width: 800px;
+	max-height: 400px;
+	display: block;
+	margin: auto;
+}
+
+h2>a {
+	color: var(--fuente);
+}
+
+a:hover {
+	text-decoration: none;
+}
+
+#idiomas>ul>li {
+	height: 25px;
+}
 
 #información>div {
 	margin: 20px;
@@ -97,13 +119,13 @@ ul.accesos {
 #proyectos {
 	min-height: 90vh;
 	width: 60%;
-	padding: 60px;
+	padding: 0px 60px 60px 60px;
 }
 
 .experiencias {
-	width: 26%;
+	width: 16%;
 	margin: 20px;
-	padding: 30px;
+	padding: 0 0 0 20px;
 	border-left: 1px solid;
 	border-left-color: var(--borde1);
 }

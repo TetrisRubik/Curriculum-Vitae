@@ -4,6 +4,7 @@ import cambiar_tema from "./tema.js";
 import carga_json from "./json.js";
 import añadir_proyectos from "./proyectos.js";
 import añadir_información from "./información.js";
+import añadir_idiomas from "./idiomas.js";
 
 const botón_idioma = document.getElementById("botón_idioma");
 const botón_tema = document.getElementById("botón_tema");
@@ -11,6 +12,7 @@ const nodo_estilo = document.getElementById("tema");
 const nodo_lenguajes = document.getElementById("lenguajes");
 const nodo_proyectos = document.getElementById("proyectos");
 const nodo_información = document.getElementById("información");
+const nodo_idiomas = document.getElementById("idiomas");
 const datos = carga_json("archivos/español.json");
 
 //# Añadir proyectos (esto estará dentro de cambiar_idioma).
@@ -21,6 +23,11 @@ datos.then(datos => {
 //# Añadir información (esto estará dentro de cambiar_idioma).
 datos.then(datos => {
 	añadir_información(nodo_información, datos.información)
+})
+
+//# Añadir idiomas (esto estará dentro de cambiar_idioma).
+datos.then(datos => {
+	añadir_idiomas(nodo_idiomas, datos.idiomas)
 })
 
 // Cargamos los valores por defecto desde el json variables.

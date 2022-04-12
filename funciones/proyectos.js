@@ -8,7 +8,15 @@ export default function añadir_proyectos(nodo, proyectos) {
 
 		// Cabecera del proyecto.
 		const nodo_encabezado = document.createElement("H2");
-		nodo_encabezado.textContent = proyecto.encabezado;
+		if (proyecto.enlace) {
+			const nodo_enlace = document.createElement("A");
+			nodo_enlace.textContent = proyecto.encabezado;
+			nodo_enlace.setAttribute("href", proyecto.enlace);
+			nodo_enlace.setAttribute("target", "_blank");
+			nodo_encabezado.appendChild(nodo_enlace);
+		} else {
+			nodo_encabezado.textContent = proyecto.encabezado;
+		}
 		elemento.appendChild(nodo_encabezado);
 
 		// Listado de párrafos del proyecto.
@@ -20,7 +28,7 @@ export default function añadir_proyectos(nodo, proyectos) {
 
 		// Imagen del proyecto.
 		const nodo_imagen = document.createElement("IMG");
-		nodo_imagen.setAttribute("src", proyecto.imagen);
+		nodo_imagen.setAttribute("src", "archivos/imágenes/" + proyecto.imagen);
 		elemento.appendChild(nodo_imagen);
 
 		fragmento.appendChild(elemento);
