@@ -27,17 +27,17 @@
 			"encabezado": "Rompe-Ladrillos",
 			"enlace": "https://github.com/TetrisRubik/Rompe-Ladrillos",
 			"párrafos": [
-				"Esto es solo el clásico juego de romper los ladrillos rebotando una pelota, pero hecho en javascript usando el canvas.",
+				"Esto es solo el clásico juego de romper los ladrillos rebotando una pelota, pero hecho en JavaScript usando el canvas.",
 				"A priori, el juego será muy simple, teniendo únicamente los elementos básicos que pueda tener cualquier versión de este. Aunque puede que en algún futuro cercano se le añada nuevas características.",
 				"El proyecto fue implementado sirviéndose del videotutorial de Crhis Perko."
 			],
 			"imagen": "rompe-ladrillos.png"
 		},
 		{
-			"encabezado": "Juego de la Sepiente",
+			"encabezado": "Sepiente",
 			"enlace": "https://github.com/TetrisRubik/Serpiente",
 			"párrafos": [
-				"Esto es solo el clásico juego de la serpiente, pero hecho con pygame (una librería de Python). ",
+				"Esto es solo el clásico juego de la serpiente, pero hecho con pygame (una librería de Python).",
 				"A priori, el juego será muy simple, teniendo únicamente los elementos básicos que pueda tener cualquier versión de este. Aunque puede que en algún futuro cercano se le añada nuevas características.",
 				"El proyecto fue implementado sirviéndose del videotutorial de Tech With Tim."
 			],

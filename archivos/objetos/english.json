@@ -1,0 +1,47 @@
+{
+	"información": {
+		"nombre": "Pablo Fernández Serrano",
+		"nacimiento": "16/06/2002",
+		"título": "Degree in Software Engineering",
+		"facultad": "University of Málaga"
+	},
+	"idiomas": [
+		{
+			"idioma": "Spanish",
+			"región": "Spain",
+			"nivel": "C2"
+		},
+		{
+			"idioma": "English",
+			"región": "United Kingdom",
+			"nivel": "B2"
+		},
+		{
+			"idioma": "French",
+			"región": "France",
+			"nivel": "B1"
+		}
+	],
+	"proyectos": [
+		{
+			"encabezado": "Brick-Breaker",
+			"enlace": "https://github.com/TetrisRubik/Rompe-Ladrillos",
+			"párrafos": [
+				"This is just the classical game of breaking bricks by moving a paddle to make the ball bounce against the bricks, but made in JavaScript using a canvas.",
+				"The game is pretty simple, having only the basic elements every version of this game can have. But it could have new features in a near future.",
+				"The project was implemented by using the videotutorial of Chris Perko."
+			],
+			"imagen": "rompe-ladrillos.png"
+		},
+		{
+			"encabezado": "Snake",
+			"enlace": "https://github.com/TetrisRubik/Serpiente",
+			"párrafos": [
+				"This is just the classical game of a snake that grows up every time he eats, but made with pygame (library of Python).",
+				"The game is pretty simple, having only the basic elements every version of this game can have. But it could have new features in a near future.",
+				"The project was implemented by using the videotutorial of Tech With Tim."
+			],
+			"imagen": "serpiente.png"
+		}
+	]
+}

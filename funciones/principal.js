@@ -13,7 +13,7 @@ const nodo_lenguajes = document.getElementById("lenguajes");
 const nodo_proyectos = document.getElementById("proyectos");
 const nodo_información = document.getElementById("información");
 const nodo_idiomas = document.getElementById("idiomas");
-const datos = carga_json("archivos/español.json");
+const datos = carga_json("archivos/objetos/español.json");
 
 //# Añadir proyectos (esto estará dentro de cambiar_idioma).
 datos.then(datos => {
@@ -31,7 +31,7 @@ datos.then(datos => {
 })
 
 // Cargamos los valores por defecto desde el json variables.
-const jsonURL = "archivos/variables.json";
+const jsonURL = "archivos/objetos/variables.json";
 const predeterminado = carga_json(jsonURL);
 
 predeterminado.then(datos => {

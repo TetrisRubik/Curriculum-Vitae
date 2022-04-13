@@ -4,8 +4,8 @@ export default function añadir_información(nodo, datos) {
 
 	// Foto de perfil.
 	const imagen = document.createElement("IMG");
-	imagen.setAttribute("src", "archivos/logo.svg");
-	imagen.setAttribute("width", "200px")
+	imagen.setAttribute("src", "archivos/vectores/logo.svg");
+	imagen.setAttribute("width", "200px");
 	fragmento.appendChild(imagen);
 
 	const texto = document.createElement("DIV");
