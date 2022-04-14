@@ -4,8 +4,7 @@ export default function añadir_lenguajes(nodo, lenguajes) {
 
 	// Encabezado de la lista.
 	const nodo_encabezado = document.createElement("H2");
-	const encabezado = "Lenguajes de programación";
-	nodo_encabezado.textContent = encabezado;
+	nodo_encabezado.textContent = lenguajes.encabezado;
 	fragmento.appendChild(nodo_encabezado);
 
 	// Variables de la lista.
@@ -22,7 +21,7 @@ export default function añadir_lenguajes(nodo, lenguajes) {
 	}
 
 	// Transforma cada dato a elemento de lista.
-	for (const lenguaje of lenguajes) {
+	for (const lenguaje of lenguajes.elementos) {
 		const elemento = document.createElement("LI");
 
 		// Nivel de experiencia en el lenguaje.

@@ -12,13 +12,13 @@ export default function configurar_idioma(nodo) {
 	for (const idioma of idiomas) {
 		const promesa = carga_json(ruta + idioma + tipo);
 		promesa.then(datos => {
-			if (datos.información) {
+			if (datos.información != undefined) {
 				const elemento = document.createElement("OPTION");
 				elemento.setAttribute("value", idioma);
 				elemento.textContent = banderas[idioma] + " " + idioma.charAt(0).toUpperCase() + idioma.substring(1);
 
 				nodo.appendChild(elemento);
 			}
-		});
+		}, fallo => { });
 	}
 }

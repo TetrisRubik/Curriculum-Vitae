@@ -5,23 +5,55 @@
 		"título": "Degree in Software Engineering",
 		"facultad": "University of Málaga"
 	},
-	"idiomas": [
-		{
-			"idioma": "Spanish",
-			"región": "Spain",
-			"nivel": "C2"
-		},
-		{
-			"idioma": "English",
-			"región": "United Kingdom",
-			"nivel": "B2"
-		},
-		{
-			"idioma": "French",
-			"región": "France",
-			"nivel": "B1"
-		}
-	],
+	"lenguajes": {
+		"encabezado": "Programming Languages",
+		"elementos": [
+			{
+				"nombre": "JavaScript",
+				"nivel": 5
+			},
+			{
+				"nombre": "Python",
+				"nivel": 4
+			},
+			{
+				"nombre": "C++",
+				"nivel": 3
+			},
+			{
+				"nombre": "Java",
+				"nivel": 2
+			},
+			{
+				"nombre": "C",
+				"nivel": 1
+			},
+			{
+				"nombre": "Go",
+				"nivel": 0
+			}
+		]
+	},
+	"idiomas": {
+		"encabezado": "Languages",
+		"elementos": [
+			{
+				"idioma": "Spanish",
+				"región": "Spain",
+				"nivel": "C2"
+			},
+			{
+				"idioma": "English",
+				"región": "United Kingdom",
+				"nivel": "B2"
+			},
+			{
+				"idioma": "French",
+				"región": "France",
+				"nivel": "B1"
+			}
+		]
+	},
 	"proyectos": [
 		{
 			"encabezado": "Brick-Breaker",

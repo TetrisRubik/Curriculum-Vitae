@@ -5,23 +5,55 @@
 		"título": "Grado en Ingeniería de Software",
 		"facultad": "Universidad de Málaga"
 	},
-	"idiomas": [
-		{
-			"idioma": "Español",
-			"región": "España",
-			"nivel": "C2"
-		},
-		{
-			"idioma": "Inglés",
-			"región": "Reino Unido",
-			"nivel": "B2"
-		},
-		{
-			"idioma": "Francés",
-			"región": "Francia",
-			"nivel": "B1"
-		}
-	],
+	"lenguajes": {
+		"encabezado": "Lenguajes de Programación",
+		"elementos": [
+			{
+				"nombre": "JavaScript",
+				"nivel": 5
+			},
+			{
+				"nombre": "Python",
+				"nivel": 4
+			},
+			{
+				"nombre": "C++",
+				"nivel": 3
+			},
+			{
+				"nombre": "Java",
+				"nivel": 2
+			},
+			{
+				"nombre": "C",
+				"nivel": 1
+			},
+			{
+				"nombre": "Go",
+				"nivel": 0
+			}
+		]
+	},
+	"idiomas": {
+		"encabezado": "Idiomas",
+		"elementos": [
+			{
+				"idioma": "Español",
+				"región": "España",
+				"nivel": "C2"
+			},
+			{
+				"idioma": "Inglés",
+				"región": "Reino Unido",
+				"nivel": "B2"
+			},
+			{
+				"idioma": "Francés",
+				"región": "Francia",
+				"nivel": "B1"
+			}
+		]
+	},
 	"proyectos": [
 		{
 			"encabezado": "Rompe-Ladrillos",
