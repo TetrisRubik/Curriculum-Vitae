@@ -29,12 +29,12 @@
 			"párrafos": [
 				"Esto es solo el clásico juego de romper los ladrillos rebotando una pelota, pero hecho en JavaScript usando el canvas.",
 				"A priori, el juego será muy simple, teniendo únicamente los elementos básicos que pueda tener cualquier versión de este. Aunque puede que en algún futuro cercano se le añada nuevas características.",
-				"El proyecto fue implementado sirviéndose del videotutorial de Crhis Perko."
+				"El proyecto fue implementado sirviéndose del videotutorial de Chris Perko."
 			],
 			"imagen": "rompe-ladrillos.png"
 		},
 		{
-			"encabezado": "Sepiente",
+			"encabezado": "Serpiente",
 			"enlace": "https://github.com/TetrisRubik/Serpiente",
 			"párrafos": [
 				"Esto es solo el clásico juego de la serpiente, pero hecho con pygame (una librería de Python).",
