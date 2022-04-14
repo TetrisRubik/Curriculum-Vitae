@@ -1,5 +1,9 @@
 {
 	"_documentación": "https://github.com/TetrisRubik/Curriculum-Vitae/tree/Principal/README.md",
 	"modo_oscuro": true,
-	"idioma": "español"
+	"idioma": "español",
+	"idiomas": [
+		"español",
+		"english"
+	]
 }
