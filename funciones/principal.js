@@ -9,7 +9,7 @@ const botón_tema = document.getElementById("botón_tema");
 const nodo_estilo = document.getElementById("tema");
 
 // Cargamos los valores por defecto desde el archivo variables.
-const jsonURL = "archivos/objetos/variables.json";
+const jsonURL = "/archivos/objetos/variables.json";
 const predeterminado = carga_json(jsonURL);
 
 predeterminado.then(datos => {

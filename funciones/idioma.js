@@ -10,7 +10,7 @@ export default function cambiar_idioma(idioma) {
 	const nodo_proyectos = document.getElementById("proyectos");
 	const nodo_lenguajes = document.getElementById("lenguajes");
 	const nodo_idiomas = document.getElementById("idiomas");
-	const datos = carga_json("archivos/objetos/" + idioma + ".json");
+	const datos = carga_json("/archivos/objetos/idiomas/" + idioma + ".json");
 	const lang = {
 		"deutsch": "de",
 		"english": "en",
