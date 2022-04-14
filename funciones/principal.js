@@ -3,11 +3,15 @@ import carga_json from "./json.js";
 import cambiar_idioma from "./idioma.js";
 import cambiar_tema from "./tema.js";
 import añadir_lenguajes from "./lenguajes.js";
+import configurar_idioma from "./temporal.js";
 
 const botón_idioma = document.getElementById("botón_idioma");
 const botón_tema = document.getElementById("botón_tema");
 const nodo_estilo = document.getElementById("tema");
 const nodo_lenguajes = document.getElementById("lenguajes");
+
+// Listado de idiomas de la página.
+configurar_idioma(botón_idioma);
 
 // Cargamos los valores por defecto desde el archivo variables.
 const jsonURL = "archivos/objetos/variables.json";

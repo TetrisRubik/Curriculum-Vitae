@@ -6,6 +6,7 @@ body {
 	background-color: var(--fondo1);
 	color: var(--fuente);
 }
+
 #proyectos>div {
 	margin-top: 60px;
 }
@@ -91,21 +92,6 @@ header {
 
 main {
 	display: flex;
-}
-
-ul.accesos {
-	margin: 0px;
-	padding: 0px;
-	display: flex;
-}
-
-.accesos>li {
-	flex: auto;
-	padding: 14px;
-	list-style-type: none;
-	display: inline;
-	border: 1px solid;
-	border-color: var(--borde2);
 }
 
 #información {
