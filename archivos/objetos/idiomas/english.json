@@ -75,5 +75,19 @@
 			],
 			"imagen": "serpiente.png"
 		}
-	]
+	],
+	"pie": {
+		"legal": [
+			{
+				"texto": "© 2022 "
+			},
+			{
+				"texto": "TetrisRubik",
+				"enlace": "https://github.com/TetrisRubik/"
+			},
+			{
+				"texto": ". All rights reserved. All trademarks are property of their respective owners in the Spain and other countries."
+			}
+		]
+	}
 }

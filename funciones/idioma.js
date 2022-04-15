@@ -4,12 +4,14 @@ import añadir_información from "./información.js";
 import añadir_proyectos from "./proyectos.js";
 import añadir_lenguajes from "./lenguajes.js";
 import añadir_idiomas from "./idiomas.js";
+import añadir_pie from "./legalidad.js";
 
 export default function cambiar_idioma(idioma) {
 	const nodo_información = document.getElementById("información");
 	const nodo_proyectos = document.getElementById("proyectos");
 	const nodo_lenguajes = document.getElementById("lenguajes");
 	const nodo_idiomas = document.getElementById("idiomas");
+	const nodo_pie = document.getElementById("pie");
 	const datos = carga_json("/archivos/objetos/idiomas/" + idioma + ".json");
 	const lang = {
 		"deutsch": "de",
@@ -39,6 +41,9 @@ export default function cambiar_idioma(idioma) {
 		// Tratar listado de idiomas.
 		borrar_hijos(nodo_idiomas);
 		añadir_idiomas(nodo_idiomas, datos.idiomas);
+		// Tratar condiciones de uso.
+		borrar_hijos(nodo_pie);
+		añadir_pie(nodo_pie, datos.pie);
 	});
 }
 

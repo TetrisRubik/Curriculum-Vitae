@@ -59,7 +59,7 @@
 			"encabezado": "Rompe-Ladrillos",
 			"enlace": "https://github.com/TetrisRubik/Rompe-Ladrillos",
 			"párrafos": [
-				"Esto es solo el clásico juego de romper los ladrillos rebotando una pelota, pero hecho en JavaScript usando el canvas.",
+				"Esto es solo el clásico juego de romper los ladrillos rebotando una pelota, pero hecho en JavaScript usando el lienzo.",
 				"A priori, el juego será muy simple, teniendo únicamente los elementos básicos que pueda tener cualquier versión de este. Aunque puede que en algún futuro cercano se le añada nuevas características.",
 				"El proyecto fue implementado sirviéndose del videotutorial de Chris Perko."
 			],
@@ -75,5 +75,19 @@
 			],
 			"imagen": "serpiente.png"
 		}
-	]
+	],
+	"pie": {
+		"legal": [
+			{
+				"texto": "© 2022 "
+			},
+			{
+				"texto": "TetrisRubik",
+				"enlace": "https://github.com/TetrisRubik/"
+			},
+			{
+				"texto": ". Todos los derechos reservados. Todas las marcas registradas pertenecen a sus respectivos dueños en España y otros países."
+			}
+		]
+	}
 }
