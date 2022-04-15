@@ -2,8 +2,8 @@
 body {
 	min-height: 100%;
 	margin: 0;
-	font-family: sans-serif;
 	background-color: var(--fondo1);
+	font-family: sans-serif;
 	color: var(--fuente);
 }
 
@@ -47,18 +47,17 @@ a:hover {
 }
 
 #botón_idioma {
+	appearance: none;
+	width: 32px;
+	height: 32px;
 	margin: 10px 5px 10px 10px;
 	padding: 0px;
 	border: 0;
 	background: transparent;
-	background-color: var(--fondo2);
-	color: var(--fuente);
 	border-radius: 20%;
-	overflow: scroll;
+	background-color: var(--fondo2);
 	font-size: 28px;
-	width: 32px;
-	height: 32px;
-	appearance: none;
+	color: var(--fuente);
 }
 
 #botón_idioma>option {
@@ -84,10 +83,10 @@ a:hover {
 
 header {
 	padding: 0.1px;
-	text-align: center;
 	border-bottom: 2px solid;
-	background-color: var(--fondo2);
 	border-bottom-color: var(--borde1);
+	background-color: var(--fondo2);
+	text-align: center;
 }
 
 main {
@@ -98,13 +97,13 @@ main {
 	width: 14%;
 	padding: 40px;
 	border-right: 2px solid;
-	background-color: var(--fondo3);
 	border-right-color: var(--borde1);
+	background-color: var(--fondo3);
 }
 
 #proyectos {
-	min-height: 90vh;
 	width: 60%;
+	min-height: 90vh;
 	padding: 0px 60px 60px 60px;
 }
 
@@ -123,8 +122,8 @@ main {
 footer {
 	padding: 40px 20px 40px 40px;
 	border-top: 1px solid;
-	background-color: var(--fondo3);
 	border-top-color: var(--borde1);
+	background-color: var(--fondo3);
 }
 
 footer>ul {
