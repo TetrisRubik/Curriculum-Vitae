@@ -5,6 +5,7 @@ export default function configurar_idioma(nodo, idiomas) {
 		"español": "🇪🇸", "english": "🇬🇧", "français": "🇫🇷", "deutsch": "🇩🇪", "italiano": "🇮🇹", "português": "🇵🇹", "中文": "🇨🇳", "日本語": "🇯🇵", "한국어": "🇰🇷"
 	}
 
+	// Se enlistan los idiomas seleccionados.
 	for (const idioma of idiomas) {
 		const elemento = document.createElement("OPTION");
 		elemento.setAttribute("value", idioma);

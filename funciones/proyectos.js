@@ -28,7 +28,7 @@ export default function añadir_proyectos(nodo, proyectos) {
 
 		// Imagen del proyecto.
 		const nodo_imagen = document.createElement("IMG");
-		nodo_imagen.setAttribute("src", "/archivos/imágenes/" + proyecto.imagen);
+		nodo_imagen.setAttribute("src", "archivos/imágenes/" + proyecto.imagen);
 		elemento.appendChild(nodo_imagen);
 
 		fragmento.appendChild(elemento);
