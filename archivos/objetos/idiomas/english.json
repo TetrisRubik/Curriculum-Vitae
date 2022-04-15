@@ -79,14 +79,16 @@
 	"pie": {
 		"legal": [
 			{
-				"texto": "© 2022 "
+				"texto": "© 2022 ",
+				"enlace": ""
 			},
 			{
 				"texto": "TetrisRubik",
 				"enlace": "https://github.com/TetrisRubik/"
 			},
 			{
-				"texto": ". All rights reserved. All trademarks are property of their respective owners in the Spain and other countries."
+				"texto": ". All rights reserved. All trademarks are property of their respective owners in the Spain and other countries.",
+				"enlace": ""
 			}
 		]
 	}
