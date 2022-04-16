@@ -7,36 +7,12 @@ body {
 	color: var(--fuente);
 }
 
-#proyectos>div {
-	margin-top: 60px;
-}
-
-#proyectos>div>img {
-	max-width: 800px;
-	max-height: 400px;
-	display: block;
-	margin: auto;
-}
-
 h2>a {
 	color: var(--fuente);
 }
 
 a:hover {
 	text-decoration: none;
-}
-
-#idiomas>ul>li {
-	height: 25px;
-}
-
-#información>div {
-	margin: 20px;
-}
-
-#información>div>span {
-	display: block;
-	padding: 10px;
 }
 
 #opciones {
@@ -60,14 +36,14 @@ a:hover {
 	color: var(--fuente);
 }
 
-#botón_idioma>option {
-	background-color: var(--fondo2);
-	color: var(--fuente);
-}
-
 #botón_idioma:hover {
 	cursor: pointer;
 	opacity: 80%;
+}
+
+#botón_idioma>option {
+	background-color: var(--fondo2);
+	color: var(--fuente);
 }
 
 #botón_tema {
@@ -101,10 +77,30 @@ main {
 	background-color: var(--fondo3);
 }
 
+#información>div {
+	margin: 20px;
+}
+
+#información>div>span {
+	display: block;
+	padding: 10px;
+}
+
 #proyectos {
 	width: 60%;
 	min-height: 90vh;
 	padding: 0px 60px 60px 60px;
+}
+
+#proyectos>div {
+	margin-top: 60px;
+}
+
+#proyectos>div>img {
+	max-width: 800px;
+	max-height: 400px;
+	display: block;
+	margin: auto;
 }
 
 .experiencias {
@@ -117,6 +113,10 @@ main {
 
 .experiencias>div>ul {
 	list-style-type: none;
+}
+
+#idiomas>ul>li {
+	height: 25px;
 }
 
 footer {
