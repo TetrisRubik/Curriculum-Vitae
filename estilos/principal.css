@@ -15,6 +15,10 @@ a:hover {
 	text-decoration: none;
 }
 
+ul {
+	list-style-type: none;
+}
+
 #opciones {
 	display: flex;
 	position: absolute;
@@ -23,7 +27,6 @@ a:hover {
 }
 
 #botón_idioma {
-	appearance: none;
 	width: 32px;
 	height: 32px;
 	margin: 10px 5px 10px 10px;
@@ -39,11 +42,6 @@ a:hover {
 #botón_idioma:hover {
 	cursor: pointer;
 	opacity: 80%;
-}
-
-#botón_idioma>option {
-	background-color: var(--fondo2);
-	color: var(--fuente);
 }
 
 #botón_tema {
@@ -111,10 +109,6 @@ main {
 	border-left-color: var(--borde1);
 }
 
-.experiencias>div>ul {
-	list-style-type: none;
-}
-
 #idiomas>ul>li {
 	height: 25px;
 }
@@ -127,7 +121,6 @@ footer {
 }
 
 footer>ul {
-	list-style-type: none;
 	display: flex;
 	padding-left: 10px;
 }
