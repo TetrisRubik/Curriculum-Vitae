@@ -25,6 +25,10 @@ export default function cambiar_idioma(idioma) {
 		"한국어": "ko"
 	};
 
+	//! Lang no funciona con todas las banderas (esto es solo provisional).
+	const nodo_bandera = document.getElementById("img_bandera");
+	nodo_bandera.setAttribute("src", "archivos/imágenes/banderas/" + lang[idioma] + ".png");
+
 	// Ponemos la página web en el idioma correspondiente.
 	document.querySelector("html").setAttribute("lang", lang[idioma]);
 
