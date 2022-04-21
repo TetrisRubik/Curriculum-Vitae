@@ -19,7 +19,7 @@ predeterminado.then(datos => {
 	// Ponemos la web a el idioma por defecto.
 	cambiar_idioma(datos.idioma);
 	// Cambiamos al tema por defecto.
-	if (datos.modo_oscuro) cambiar_tema(nodo_estilo, botón_tema);
+	if (!datos.modo_oscuro) cambiar_tema(nodo_estilo, botón_tema);
 });
 
 // Botón para cambiar el idioma.
