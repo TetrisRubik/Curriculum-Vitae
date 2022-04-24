@@ -1,10 +1,10 @@
 //* Función que cambia el idioma de la página.
-import carga_json from "./json.js";
-import añadir_información from "./información.js";
-import añadir_proyectos from "./proyectos.js";
-import añadir_lenguajes from "./lenguajes.js";
-import añadir_idiomas from "./idiomas.js";
-import añadir_pie from "./legalidad.js";
+import carga_json from "../json.js";
+import añadir_información from "../contenido/información.js";
+import añadir_proyectos from "../contenido/proyectos.js";
+import añadir_lenguajes from "../contenido/lenguajes.js";
+import añadir_idiomas from "../contenido/idiomas.js";
+import añadir_pie from "../contenido/legalidad.js";
 
 export default function cambiar_idioma(idioma) {
 	const nodo_información = document.getElementById("información");

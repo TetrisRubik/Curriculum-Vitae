@@ -1,8 +1,8 @@
 //* Guión principal.
 import carga_json from "./json.js";
-import configurar_idioma from "./opciones.js";
-import cambiar_idioma from "./idioma.js";
-import cambiar_tema from "./tema.js";
+import configurar_idioma from "./configuración/opciones.js";
+import cambiar_idioma from "./configuración/idioma.js";
+import cambiar_tema from "./configuración/tema.js";
 
 const botón_idioma = document.getElementById("botón_idioma");
 const botón_tema = document.getElementById("botón_tema");
