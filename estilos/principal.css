@@ -7,7 +7,7 @@ body {
 	color: var(--fuente);
 }
 
-h2>a {
+h2 > a {
 	color: var(--fuente);
 }
 
@@ -75,11 +75,11 @@ main {
 	background-color: var(--fondo3);
 }
 
-#información>div {
+#información > div {
 	margin: 20px;
 }
 
-#información>div>span {
+#información > div > span {
 	display: block;
 	padding: 10px;
 }
@@ -90,11 +90,11 @@ main {
 	padding: 0px 60px 60px 60px;
 }
 
-#proyectos>div {
+#proyectos > div {
 	margin-top: 60px;
 }
 
-#proyectos>div>img {
+#proyectos > div > img {
 	max-width: 800px;
 	max-height: 400px;
 	display: block;
@@ -109,7 +109,7 @@ main {
 	border-left-color: var(--borde1);
 }
 
-#idiomas>ul>li {
+#idiomas > ul > li {
 	height: 25px;
 }
 
@@ -120,12 +120,12 @@ footer {
 	background-color: var(--fondo3);
 }
 
-footer>ul {
+footer > ul {
 	display: flex;
 	padding-left: 10px;
 }
 
-footer>ul>li {
+footer > ul > li {
 	display: block;
 	margin-right: 20px;
 }
