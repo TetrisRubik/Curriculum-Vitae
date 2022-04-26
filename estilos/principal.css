@@ -75,6 +75,10 @@ main {
 	background-color: var(--fondo3);
 }
 
+#perfil {
+	width: 200px;
+}
+
 #información > div {
 	margin: 20px;
 }
