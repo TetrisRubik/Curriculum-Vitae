@@ -34,7 +34,6 @@ ul {
 	border: 0;
 	background: transparent;
 	border-radius: 20%;
-	background-color: var(--fondo2);
 	font-size: 28px;
 	color: var(--fuente);
 }
@@ -68,6 +67,7 @@ main {
 }
 
 #información {
+	max-width: 14vw;
 	width: 14%;
 	padding: 40px;
 	border-right: 2px solid;
@@ -76,7 +76,8 @@ main {
 }
 
 #perfil {
-	width: 200px;
+	width: 100%;
+	max-width: max-content;
 }
 
 #información > div {
