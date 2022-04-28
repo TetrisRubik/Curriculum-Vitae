@@ -95,11 +95,11 @@ main {
 	padding: 0px 60px 60px 60px;
 }
 
-#proyectos > div {
+#proyectos > section {
 	margin-top: 60px;
 }
 
-#proyectos > div > img {
+#proyectos > section > img {
 	max-width: 800px;
 	max-height: 400px;
 	display: block;

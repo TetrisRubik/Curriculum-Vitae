@@ -4,7 +4,7 @@ export default function añadir_proyectos(nodo, proyectos) {
 
 	// Enlistar todos los proyectos como divisiones.
 	for (const proyecto of proyectos) {
-		const elemento = document.createElement("DIV");
+		const elemento = document.createElement("SECTION");
 
 		// Cabecera del proyecto.
 		const nodo_encabezado = document.createElement("H2");
