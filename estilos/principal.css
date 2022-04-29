@@ -26,6 +26,14 @@ ul {
 	right: 0;
 }
 
+.oculto {
+	display: none;
+}
+
+.visible {
+	display: block;
+}
+
 #botón_idioma {
 	width: 32px;
 	height: 32px;

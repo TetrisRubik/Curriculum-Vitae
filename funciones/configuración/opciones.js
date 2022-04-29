@@ -3,7 +3,7 @@ export default function configurar_idioma(nodo, idiomas) {
 	const banderas = {
 		"español": "es", "english": "uk", "français": "fr", "deutsch": "de", "italiano": "it", "português": "pt", "中文": "cn", "日本語": "jp", "한국어": "kr"
 	}
-	const lista = document.createElement("UL");
+	const fragmento = document.createDocumentFragment();
 
 	// Se enlistan los idiomas seleccionados.
 	for (const idioma of idiomas) {
@@ -15,8 +15,8 @@ export default function configurar_idioma(nodo, idiomas) {
 		const texto = document.createElement("SPAN");
 		texto.textContent = " " + idioma.charAt(0).toUpperCase() + idioma.substring(1)
 		elemento.appendChild(texto);
-		lista.appendChild(elemento);
+		fragmento.appendChild(elemento);
 	}
 
-	nodo.appendChild(lista);
+	nodo.appendChild(fragmento);
 }
