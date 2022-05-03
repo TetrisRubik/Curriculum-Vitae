@@ -14,12 +14,12 @@ const jsonURL = "archivos/objetos/variables.json";
 const predeterminado = carga_json(jsonURL);
 
 predeterminado.then(datos => {
-	// Listado de idiomas de la página.
-	configurar_idioma(nodo_idioma, datos.idiomas);
-	// Ponemos la web a el idioma por defecto.
-	cambiar_idioma(datos.idioma);
 	// Cambiamos al tema por defecto.
 	if (!datos.modo_oscuro) cambiar_tema(nodo_estilo, botón_tema);
+	// Ponemos la web a el idioma por defecto.
+	cambiar_idioma(datos.idioma);
+	// Listado de idiomas de la página.
+	configurar_idioma(nodo_idioma, datos.idiomas);
 });
 
 // Botón para cambiar el idioma.
