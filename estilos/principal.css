@@ -1,4 +1,4 @@
-/** Estilo web principal */
+/** Estilo principal */
 body {
 	min-height: 100%;
 	margin: 0;
@@ -19,6 +19,8 @@ ul {
 	list-style-type: none;
 }
 
+/* OPCIONES */
+
 #opciones {
 	display: flex;
 	position: absolute;
@@ -33,6 +35,8 @@ ul {
 .visible {
 	display: block;
 }
+
+/* IDIOMA */
 
 #botón_idioma {
 	width: 32px;
@@ -51,6 +55,28 @@ ul {
 	opacity: 80%;
 }
 
+#lista_idioma {
+	padding: 2px;
+	border: 2px solid var(--borde1);
+	background-color: var(--fondo2);
+}
+
+#lista_idioma > li {
+	padding: 8px;
+}
+
+#lista_idioma > li:hover {
+	cursor: pointer;
+	opacity: 80%;
+}
+
+#lista_idioma > li > img {
+	position: relative;
+	top: 2px;
+}
+
+/* TEMA */
+
 #botón_tema {
 	width: 28px;
 	margin: 10px 10px 10px 5px;
@@ -62,10 +88,11 @@ ul {
 	opacity: 80%;
 }
 
+/* ENCABEZADO */
+
 header {
 	padding: 0.1px;
-	border-bottom: 2px solid;
-	border-bottom-color: var(--borde1);
+	border-bottom: 2px solid var(--borde1);
 	background-color: var(--fondo2);
 	text-align: center;
 }
@@ -73,6 +100,8 @@ header {
 main {
 	display: flex;
 }
+
+/* INFORMACIÓN */
 
 #información {
 	max-width: 14vw;
@@ -97,6 +126,8 @@ main {
 	padding: 10px;
 }
 
+/* PROYECTOS */
+
 #proyectos {
 	width: 60%;
 	min-height: 90vh;
@@ -114,6 +145,8 @@ main {
 	margin: auto;
 }
 
+/* EXPERIENCIAS */
+
 .experiencias {
 	width: 16%;
 	margin: 20px;
@@ -125,6 +158,8 @@ main {
 #idiomas > ul > li {
 	height: 25px;
 }
+
+/* PIE DE PÁGINA */
 
 footer {
 	padding: 40px 20px 40px 40px;
@@ -142,6 +177,8 @@ footer > ul > li {
 	display: block;
 	margin-right: 20px;
 }
+
+/* COLORES */
 
 .azul {
 	color: var(--azul);
