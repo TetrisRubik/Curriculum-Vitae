@@ -56,6 +56,10 @@ ul {
 }
 
 #lista_idioma {
+	position: absolute;
+	top: 35px;
+	right: 15px;
+	width: max-content;
 	padding: 2px;
 	border: 2px solid var(--borde1);
 	background-color: var(--fondo2);
@@ -79,7 +83,7 @@ ul {
 
 #botón_tema {
 	width: 28px;
-	margin: 10px 10px 10px 5px;
+	margin: 10px 20px 10px 5px;
 	padding: 0;
 }
 
