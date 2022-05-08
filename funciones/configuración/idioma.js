@@ -14,24 +14,21 @@ export default function cambiar_idioma(idioma) {
 	const nodo_pie = document.getElementById("pie");
 	const datos = carga_json("archivos/objetos/idiomas/" + idioma + ".json");
 	const lang = {
-		"deutsch": "de",
-		"english": "en",
-		"español": "es",
-		"français": "fr",
-		"italiano": "it",
-		"português": "pt",
-		"中文": "zh",
-		"日本語": "ja",
-		"한국어": "ko"
+		"deutsch": "de", "english": "en", "español": "es", "français": "fr", "italiano": "it", "português": "pt", "中文": "zh", "日本語": "ja", "한국어": "ko"
+	};
+	const banderas = {
+		"español": "es", "english": "uk", "français": "fr", "deutsch": "de", "italiano": "it", "português": "pt", "中文": "cn", "日本語": "jp", "한국어": "kr"
 	};
 
-	//! Lang no funciona con todas las banderas (esto es solo provisional).
+	// Poner la bandera del idioma en el botón del cambio de idioma.
 	const nodo_bandera = document.getElementById("img_bandera");
-	nodo_bandera.setAttribute("src", "archivos/imágenes/banderas/" + lang[idioma] + ".png");
+	nodo_bandera.setAttribute("src", "archivos/imágenes/banderas/" + banderas[idioma] + ".png");
 
 	// Ponemos la página web en el idioma correspondiente.
 	document.querySelector("html").setAttribute("lang", lang[idioma]);
 
+
+	//# Poner carga de idioma como opcionalidad si no hay.
 	datos.then(datos => {
 		// Tratar información del usuario.
 		borrar_hijos(nodo_información);

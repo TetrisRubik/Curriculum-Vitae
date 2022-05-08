@@ -71,7 +71,7 @@ ul {
 
 #lista_idioma > li:hover {
 	cursor: pointer;
-	opacity: 80%;
+	background-color: var(--borde2);
 }
 
 #lista_idioma > li > img {

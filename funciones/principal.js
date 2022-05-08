@@ -23,8 +23,12 @@ predeterminado.then(datos => {
 });
 
 // Botón para cambiar el idioma.
-botón_idioma.addEventListener("change", () => {
-	cambiar_idioma(botón_idioma.value);
+botón_idioma.addEventListener("click", () => {
+	if (nodo_idioma.getAttribute("class") == "oculto") {
+		nodo_idioma.setAttribute("class", "visible");
+	} else {
+		nodo_idioma.setAttribute("class", "oculto");
+	}
 });
 
 // Botón para cambiar el tema.
