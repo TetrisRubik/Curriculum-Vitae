@@ -28,14 +28,6 @@ ul {
 	right: 0;
 }
 
-.oculto {
-	display: none;
-}
-
-.visible {
-	display: block;
-}
-
 /* IDIOMA */
 
 #botón_idioma {
@@ -53,6 +45,10 @@ ul {
 #botón_idioma:hover {
 	cursor: pointer;
 	opacity: 80%;
+}
+
+.oculto {
+	display: none;
 }
 
 #lista_idioma {
