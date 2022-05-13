@@ -5,17 +5,18 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="stylesheet" href="estilos/principal.css">
-	<link rel="stylesheet" href="estilos/claro.css" id="tema">
+	<link rel="stylesheet" href="estilos/oscuro.css" id="tema">
 	<link rel="shortcut icon" href="archivos/vectores/logo.svg">
-	<script type="module" src="funciones/principal.js"></script>
 	<title> Curriculum Vitae </title>
 </head>
 
 <body>
 	<!-- Botones de configuración -->
 	<aside id="opciones">
-		<select id="botón_idioma" name="Idiomas"></select>
-		<input id="botón_tema" type="image" src="archivos/vectores/modo_claro.svg" alt="Botón para cambiar a modo claro">
+		<!-- Implementar lista desplegable -->
+		<p id="botón_idioma"><img id="img_bandera" src="archivos/imágenes/banderas/es.png" alt="Idioma"></p>
+		<ul id="lista_idioma" class="oculto"></ul>
+		<input id="botón_tema" type="image" src="archivos/vectores/modo_claro.svg" alt="Cambiar a modo claro">
 	</aside>
 	<!-- Presentación de la página -->
 	<header>
@@ -26,7 +27,7 @@
 		<!-- Información básica del usuario -->
 		<aside id="información"></aside>
 		<!-- Tablón con los diferentes proyectos (solo aparece si hay) -->
-		<div id="proyectos"></div>
+		<article id="proyectos"></article>
 		<!-- Algunas experiencias importantes -->
 		<aside class="experiencias">
 			<!-- Listado de lenguajes de programación y su nivel de experiencia (solo aparece si hay) -->
@@ -37,6 +38,8 @@
 	</main>
 	<!-- Información legal y menciones -->
 	<footer id="pie"></footer>
+	<!-- Importante ponerlo abajo para mejorar la carga -->
+	<script type="module" src="funciones/principal.js"></script>
 </body>
 
 </html>

@@ -1,4 +1,4 @@
-/** Estilo web principal */
+/** Estilo principal */
 body {
 	min-height: 100%;
 	margin: 0;
@@ -7,13 +7,19 @@ body {
 	color: var(--fuente);
 }
 
-h2>a {
+h2 > a {
 	color: var(--fuente);
 }
 
 a:hover {
 	text-decoration: none;
 }
+
+ul {
+	list-style-type: none;
+}
+
+/* OPCIONES */
 
 #opciones {
 	display: flex;
@@ -22,8 +28,9 @@ a:hover {
 	right: 0;
 }
 
+/* IDIOMA */
+
 #botón_idioma {
-	appearance: none;
 	width: 32px;
 	height: 32px;
 	margin: 10px 5px 10px 10px;
@@ -31,7 +38,6 @@ a:hover {
 	border: 0;
 	background: transparent;
 	border-radius: 20%;
-	background-color: var(--fondo2);
 	font-size: 28px;
 	color: var(--fuente);
 }
@@ -41,14 +47,39 @@ a:hover {
 	opacity: 80%;
 }
 
-#botón_idioma>option {
-	background-color: var(--fondo2);
-	color: var(--fuente);
+.oculto {
+	display: none;
 }
+
+#lista_idioma {
+	position: absolute;
+	top: 35px;
+	right: 15px;
+	width: max-content;
+	padding: 2px;
+	border: 2px solid var(--borde1);
+	background-color: var(--fondo2);
+}
+
+#lista_idioma > li {
+	padding: 8px;
+}
+
+#lista_idioma > li:hover {
+	cursor: pointer;
+	background-color: var(--borde2);
+}
+
+#lista_idioma > li > img {
+	position: relative;
+	top: 2px;
+}
+
+/* TEMA */
 
 #botón_tema {
 	width: 28px;
-	margin: 10px 10px 10px 5px;
+	margin: 10px 20px 10px 5px;
 	padding: 0;
 }
 
@@ -57,19 +88,27 @@ a:hover {
 	opacity: 80%;
 }
 
+/* ENCABEZADO */
+
 header {
 	padding: 0.1px;
-	border-bottom: 2px solid;
-	border-bottom-color: var(--borde1);
+	border-bottom: 2px solid var(--borde1);
 	background-color: var(--fondo2);
 	text-align: center;
+}
+
+h1 {
+	margin: .4em 0 .4em 0;
 }
 
 main {
 	display: flex;
 }
 
+/* INFORMACIÓN */
+
 #información {
+	max-width: 14vw;
 	width: 14%;
 	padding: 40px;
 	border-right: 2px solid;
@@ -77,14 +116,21 @@ main {
 	background-color: var(--fondo3);
 }
 
-#información>div {
+#perfil {
+	width: 100%;
+	max-width: max-content;
+}
+
+#información > div {
 	margin: 20px;
 }
 
-#información>div>span {
+#información > div > span {
 	display: block;
 	padding: 10px;
 }
+
+/* PROYECTOS */
 
 #proyectos {
 	width: 60%;
@@ -92,16 +138,18 @@ main {
 	padding: 0px 60px 60px 60px;
 }
 
-#proyectos>div {
+#proyectos > section {
 	margin-top: 60px;
 }
 
-#proyectos>div>img {
+#proyectos > section > img {
 	max-width: 800px;
 	max-height: 400px;
 	display: block;
 	margin: auto;
 }
+
+/* EXPERIENCIAS */
 
 .experiencias {
 	width: 16%;
@@ -111,13 +159,11 @@ main {
 	border-left-color: var(--borde1);
 }
 
-.experiencias>div>ul {
-	list-style-type: none;
-}
-
-#idiomas>ul>li {
+#idiomas > ul > li {
 	height: 25px;
 }
+
+/* PIE DE PÁGINA */
 
 footer {
 	padding: 40px 20px 40px 40px;
@@ -126,16 +172,17 @@ footer {
 	background-color: var(--fondo3);
 }
 
-footer>ul {
-	list-style-type: none;
+footer > ul {
 	display: flex;
 	padding-left: 10px;
 }
 
-footer>ul>li {
+footer > ul > li {
 	display: block;
 	margin-right: 20px;
 }
+
+/* COLORES */
 
 .azul {
 	color: var(--azul);
