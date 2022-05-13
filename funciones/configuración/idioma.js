@@ -27,24 +27,32 @@ export default function cambiar_idioma(idioma) {
 	// Ponemos la página web en el idioma correspondiente.
 	document.querySelector("html").setAttribute("lang", lang[idioma]);
 
-
-	//# Poner carga de idioma como opcionalidad si no hay.
 	datos.then(datos => {
 		// Tratar información del usuario.
-		borrar_hijos(nodo_información);
-		añadir_información(nodo_información, datos.información);
+		if (datos.información != undefined && Object.keys(datos.información).length != 0) {
+			borrar_hijos(nodo_información);
+			añadir_información(nodo_información, datos.información);
+		}
 		// Tratar proyectos realizados.
-		borrar_hijos(nodo_proyectos);
-		añadir_proyectos(nodo_proyectos, datos.proyectos);
+		if (datos.proyectos != undefined && Object.keys(datos.proyectos).length != 0) {
+			borrar_hijos(nodo_proyectos);
+			añadir_proyectos(nodo_proyectos, datos.proyectos);
+		}
 		// Tratar listado de lenguajes de programación.
-		borrar_hijos(nodo_lenguajes);
-		añadir_lenguajes(nodo_lenguajes, datos.lenguajes);
+		if (datos.lenguajes != undefined && Object.keys(datos.lenguajes).length != 0) {
+			borrar_hijos(nodo_lenguajes);
+			añadir_lenguajes(nodo_lenguajes, datos.lenguajes);
+		}
 		// Tratar listado de idiomas.
-		borrar_hijos(nodo_idiomas);
-		añadir_idiomas(nodo_idiomas, datos.idiomas);
+		if (datos.idiomas != undefined && Object.keys(datos.idiomas).length != 0) {
+			borrar_hijos(nodo_idiomas);
+			añadir_idiomas(nodo_idiomas, datos.idiomas);
+		}
 		// Tratar condiciones de uso.
-		borrar_hijos(nodo_pie);
-		añadir_pie(nodo_pie, datos.pie);
+		if (datos.pie != undefined && Object.keys(datos.pie).length != 0) {
+			borrar_hijos(nodo_pie);
+			añadir_pie(nodo_pie, datos.pie);
+		}
 	});
 }
 

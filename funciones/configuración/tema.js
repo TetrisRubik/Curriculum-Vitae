@@ -4,8 +4,8 @@ export default function cambiar_tema(nodo, accionador) {
 	const tema_claro = "estilos/claro.css";
 	const icono_oscuro = "archivos/vectores/modo_oscuro.svg";
 	const icono_claro = "archivos/vectores/modo_claro.svg";
-	const alternativa_oscuro = "Botón para cambiar a modo oscuro";
-	const alternativa_claro = "Botón para cambiar a modo claro";
+	const alternativa_oscuro = "Cambiar a modo oscuro";
+	const alternativa_claro = "Cambiar a modo claro";
 
 	if (nodo.getAttribute("href") === tema_oscuro) {
 		nodo.setAttribute("href", tema_claro);

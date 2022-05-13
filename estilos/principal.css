@@ -97,6 +97,10 @@ header {
 	text-align: center;
 }
 
+h1 {
+	margin: .4em 0 .4em 0;
+}
+
 main {
 	display: flex;
 }

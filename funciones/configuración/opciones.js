@@ -7,19 +7,19 @@ export default function configurar_idioma(nodo, idiomas) {
 	}
 	const fragmento = document.createDocumentFragment();
 
-	// Se enlistan los idiomas seleccionados.
+	// Se enlistan los idiomas seleccionados con formato: "IMG(bandera) <idioma>".
 	for (const idioma of idiomas) {
 		const elemento = document.createElement("LI");
 		elemento.setAttribute("value", idioma);
-
+		// Imágen de la bandera.
 		const imagen = document.createElement("IMG");
 		imagen.setAttribute("src", "archivos/imágenes/banderas/" + banderas[idioma] + ".png");
 		elemento.appendChild(imagen);
-
+		// Texto con el idioma.
 		const texto = document.createElement("SPAN");
 		texto.textContent = " " + idioma.charAt(0).toUpperCase() + idioma.substring(1)
 		elemento.appendChild(texto);
-
+		// Función de cambiar a ese idioma.
 		elemento.addEventListener("click", () => {
 			cambiar_idioma(idioma);
 		});
