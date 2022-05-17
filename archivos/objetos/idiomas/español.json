@@ -30,9 +30,17 @@
 			},
 			{
 				"nombre": "Go",
-				"nivel": 0
+				"nivel": -10
 			}
-		]
+		],
+		"descripción": {
+			"5": "Maestro",
+			"4": "Profesional",
+			"3": "Amateur",
+			"2": "Novato",
+			"1": "Principiante",
+			"0": "Desconocido"
+		}
 	},
 	"idiomas": {
 		"encabezado": "Idiomas",
