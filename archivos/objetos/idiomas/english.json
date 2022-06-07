@@ -47,17 +47,14 @@
 		"elementos": [
 			{
 				"idioma": "Spanish",
-				"región": "Spain",
 				"nivel": "C2"
 			},
 			{
 				"idioma": "English",
-				"región": "United Kingdom",
 				"nivel": "B2"
 			},
 			{
 				"idioma": "French",
-				"región": "France",
 				"nivel": "B1"
 			}
 		]

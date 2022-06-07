@@ -12,7 +12,7 @@ export default function añadir_idiomas(nodo, idiomas) {
 
 	for (const idioma of idiomas.elementos) {
 		const elemento = document.createElement("LI");
-		elemento.textContent = idioma.nivel + " - " + idioma.idioma + " (" + idioma.región + ")";
+		elemento.textContent = idioma.nivel + " - " + idioma.idioma;
 		nodo_lista.appendChild(elemento);
 	}
 
