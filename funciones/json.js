@@ -1,4 +1,3 @@
-//* Carga de archivo JSON.
 export default async function carga_json(URL) {
 	const petición = new Request(URL);
 	const respuesta = await fetch(petición);

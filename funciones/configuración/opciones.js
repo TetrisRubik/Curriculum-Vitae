@@ -1,4 +1,3 @@
-//* Función que añade idiomas a las opciones.
 import cambiar_idioma from "./idioma.js";
 
 export default function configurar_idioma(nodo, idiomas) {

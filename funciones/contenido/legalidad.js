@@ -1,4 +1,3 @@
-//* Función que agrega las condiciones y menciones.
 export default function añadir_pie(nodo, datos) {
 	const fragmento = document.createDocumentFragment();
 

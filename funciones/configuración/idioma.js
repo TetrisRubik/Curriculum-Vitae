@@ -1,4 +1,3 @@
-//* Función que cambia el idioma de la página.
 import carga_json from "../json.js";
 import añadir_información from "../contenido/información.js";
 import añadir_proyectos from "../contenido/proyectos.js";

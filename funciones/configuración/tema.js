@@ -1,4 +1,3 @@
-//* Función que cambia el tema de oscuro a claro y viceversa.
 export default function cambiar_tema(nodo, accionador) {
 	const tema_oscuro = "estilos/oscuro.css";
 	const tema_claro = "estilos/claro.css";

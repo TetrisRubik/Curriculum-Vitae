@@ -1,4 +1,3 @@
-//* Guión principal.
 import carga_json from "./json.js";
 import configurar_idioma from "./configuración/opciones.js";
 import cambiar_idioma from "./configuración/idioma.js";

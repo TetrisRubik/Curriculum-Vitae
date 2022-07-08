@@ -1,4 +1,3 @@
-//* Función que añade el listado de proyectos.
 export default function añadir_proyectos(nodo, proyectos) {
 	const fragmento = document.createDocumentFragment();
 

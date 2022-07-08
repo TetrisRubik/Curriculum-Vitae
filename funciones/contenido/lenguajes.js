@@ -1,4 +1,3 @@
-//* Función que añade el listado de lenguajes.
 export default function añadir_lenguajes(nodo, lenguajes) {
 	const fragmento = document.createDocumentFragment();
 

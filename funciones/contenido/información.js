@@ -1,4 +1,3 @@
-//* Función que añade la información personal.
 export default function añadir_información(nodo, datos) {
 	const fragmento = document.createDocumentFragment();
 
